@@ -19,10 +19,10 @@ Itihas Vachak is an intelligent question-answering system designed to make explo
 ```bash
 Itihas-Vachak/
 ├── data/
-│   ├── raw/                        # Raw PDFs or text files of the textbooks
 │   ├── processed/                  # Extracted and cleaned text files
 │   ├── embeddings/                 # Precomputed embeddings for semantic search
 │   ├── database.sqlite             # SQLite database for hierarchical tree and metadata
+│   ├── index.faiss
 ├── src/
 │   ├── __init__.py                 # Makes src a Python package
 │   ├── extraction/
