@@ -45,10 +45,10 @@ Itihas-Vachak/
 │   ├── ui/
 │   │   ├── __init__.py
 │   │   ├── gradio_interface.py     # Gradio app for the user interface
-│   ├── utils/
-│   │   ├── __init__.py
-│   │   ├── config.py               # Configuration settings (paths, parameters)
+├── .dockerignore
 ├── .gitignore                      # Files and folders to ignore in version control
+├── app.py                          # Entry point
+├── Dockerfile                      # docker build file
 ├── LICENSE.md                      # License for the project
 ├── README.md                       # Project overview and setup instructions
 ├── requirements.txt                # Dependencies for the project
@@ -56,9 +56,14 @@ Itihas-Vachak/
 
 ## 💻 Technologies Used
 
-- **SQLite**: Database for storing hierarchical data
 - **FAISS**: Vector store
 - **Gradio**: User Interface
+- **NLTK**: Natural Language Processing library
+- **PyMuPdf**: Library for processing pdf files
+- **SQLite**: Database for storing hierarchical data
+- **Sentence Transformers**: Library for creating embeddings
+- **Pytesseract**: OCR engine (Desktop and Library)
+- **Docker**: Containerizes the application
 
 ## 📋 Attribution
 This project uses the following textbooks as sources for content:  
@@ -72,4 +77,4 @@ The content from these books is used solely for educational and non-commercial p
 
 - **GitHub Repository**: [Click here](https://github.com/Adm-2005/Itihas-Vachak)
 - **Live Demo**: [Click here]()
-- **Documentation Link**: [Click here]()
+- **Documentation Link**: [Click here](https://docs.google.com/document/d/1Ty88uf5lNP-Ters0yYXM2O-dSdasTWH4/edit?usp=sharing&ouid=103738077583465355360&rtpof=true&sd=true)

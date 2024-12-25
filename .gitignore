@@ -1,2 +1,8 @@
+# virtual environment
 venv/
+
+# executables
+__pycache__/
+
+# config file
 .env
