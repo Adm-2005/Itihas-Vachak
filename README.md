@@ -1,3 +1,16 @@
+---
+title: Itihas Vachak
+emoji: 📖
+colorFrom: red
+colorTo: green
+sdk: gradio
+sdk_version: 5.0.1
+app_file: app.py
+pinned: false
+license: mit
+short_description: An intelligent QnA system designed to explore Indian history.
+---
+
 # 📖 Itihas Vachak
 
 Itihas Vachak is an intelligent question-answering system designed to make exploration of Indian history easy and engaging. Using efficient retrieval techniques and large language models, it provides users with precise and context-rich answers directly from prominent history books.
@@ -17,6 +30,7 @@ Itihas Vachak is an intelligent question-answering system designed to make explo
 ## 📁 Project Structure
 
 ```bash
+
 Itihas-Vachak/
 ├── data/
 │   ├── processed/                  # Extracted and cleaned text files
@@ -45,13 +59,12 @@ Itihas-Vachak/
 │   ├── ui/
 │   │   ├── __init__.py
 │   │   ├── gradio_interface.py     # Gradio app for the user interface
-├── .dockerignore
 ├── .gitignore                      # Files and folders to ignore in version control
 ├── app.py                          # Entry point
-├── Dockerfile                      # docker build file
 ├── LICENSE.md                      # License for the project
 ├── README.md                       # Project overview and setup instructions
 ├── requirements.txt                # Dependencies for the project
+
 ```
 
 ## 💻 Technologies Used
@@ -63,7 +76,6 @@ Itihas-Vachak/
 - **SQLite**: Database for storing hierarchical data
 - **Sentence Transformers**: Library for creating embeddings
 - **Pytesseract**: OCR engine (Desktop and Library)
-- **Docker**: Containerizes the application
 
 ## 📋 Attribution
 This project uses the following textbooks as sources for content:  
@@ -76,5 +88,5 @@ The content from these books is used solely for educational and non-commercial p
 ## 🔗 Important Links
 
 - **GitHub Repository**: [Click here](https://github.com/Adm-2005/Itihas-Vachak)
-- **Live Demo**: [Click here]()
+- **Live Demo**: [Click here](https://drive.google.com/file/d/1Pru2GdxzoWUEKt6ZMntkQ1_ncgvjVfwa/view?usp=sharing)
 - **Documentation Link**: [Click here](https://docs.google.com/document/d/1Ty88uf5lNP-Ters0yYXM2O-dSdasTWH4/edit?usp=sharing&ouid=103738077583465355360&rtpof=true&sd=true)

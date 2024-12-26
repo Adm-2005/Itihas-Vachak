@@ -12,7 +12,7 @@ class EmbeddingsIndexer:
         self.texts = []
 
     def create_index(self):
-        self.index = faiss.IndexFlatL2(768)
+        self.index = faiss.IndexFlatL2(384)
 
     def add_embeddings(self, texts):
         embeddings = self.model.encode(texts)
